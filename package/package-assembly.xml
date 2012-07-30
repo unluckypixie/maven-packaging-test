@@ -9,19 +9,19 @@
 	</formats>
 
 	<includeBaseDirectory>false</includeBaseDirectory>
+  <moduleSets>
+    <moduleSet>
+      <useAllReactorProjects>true</useAllReactorProjects>
+      <binaries>
+        <outputDirectory>/package/</outputDirectory>
+        <dependencySets>
+          <dependencySet>
+            <useProjectAttachments>true</useProjectAttachments>
+            <useProjectArtifact>true</useProjectArtifact>
+          </dependencySet>
+        </dependencySets>
+      </binaries>
+    </moduleSet>
+  </moduleSets>
 
-	<moduleSets>
-		<moduleSet>
-			<useAllReactorProjects>true</useAllReactorProjects>
-
-			<includes>
-				<include>org.test.parent:*</include>
-			</includes>
-
-			<binaries>
-				<outputDirectory>/package/</outputDirectory>
-				<unpack>false</unpack>
-			</binaries>
-		</moduleSet>
-	</moduleSets>
 </assembly>
