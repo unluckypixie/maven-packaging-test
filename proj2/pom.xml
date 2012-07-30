@@ -6,12 +6,10 @@
     <groupId>org.test</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>..</relativePath>
   </parent>
 
   <groupId>org.test.parent</groupId>
   <artifactId>proj2</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Packaging Test : Project2</name>

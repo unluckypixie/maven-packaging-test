@@ -12,6 +12,7 @@
 
 	<modules>
 		<module>proj1</module>
+		<module>proj2</module>
 		<module>package</module>
 	</modules>
 </project>
